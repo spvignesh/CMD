@@ -1,0 +1,1 @@
+schtasks /create /tn FileCopyTest /tr "C:\Users\Vignesh\Downloads\App.exe http://localhost:12345/ USERNAME PWD C:\FileToMove\input.xlsx \\sharedFolder\Output" /sc daily /st 09:16:00
